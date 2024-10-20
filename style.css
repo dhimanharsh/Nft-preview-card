@@ -1,0 +1,148 @@
+body {
+    background: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    height: 35rem;
+    width: 22%;
+    border: 2px solid transparent;
+    padding: 1rem;
+    margin-top: 50px;
+    border-radius: 15px;
+    background: hsl(216, 50%, 16%);
+    
+
+}
+
+#first-image {
+    height: 19em;
+    width: 100%;
+    border-radius: 15px;
+    transition: all 0.4s;
+}
+
+
+#image-second{
+    position: absolute;
+    margin-left: -335px;
+
+    height: 4rem;
+    width: 5%;
+    border-radius: 15px;
+    opacity: 0;
+    transition: all 0.4s;
+}
+#image-second:hover{
+    opacity: 1;
+}
+.main h2 {
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200px;
+}
+
+.main p {
+    font-size: 1.1em;
+    color: hsl(215, 41%, 30%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    word-spacing: 5px;
+}
+
+.next {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1em;
+
+}
+
+#four {
+    color: white;
+    font-size: 1em;
+    margin-left: 3px;
+}
+
+#four:hover {
+    color: #00F9F3;
+
+}
+
+.icons-one {
+
+    display: flex;
+}
+
+.icons-two {
+    display: flex;
+}
+
+hr {
+    margin-top: 15px;
+    border: 1px solid gray;
+}
+
+.profile img {
+    height: 2em;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.profile {
+    display: flex;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+}
+
+.profile p {
+    margin-left: 1em;
+}
+
+.profile b {
+    color: white;
+    font-weight: 400;
+
+}
+
+.profile b:hover {
+    color: #00F9F3;
+}
+
+@media (min-width:375px) and (max-width:550px) {
+    .main {
+        width: 80%;
+        margin: 0 auto;
+
+    }
+}
+@media (min-width:551px) and (max-width:700px) {
+    .main {
+        width: 60%;
+        margin: 0 auto;
+
+    }
+}
+@media (min-width:701px) and (max-width:1000px) {
+    .main {
+        width: 40%;
+        margin: 0 auto;
+
+    }
+}
+
+@media (min-width:1001px) and (max-width:1445px) {
+    .main {
+        width: 25%;
+        margin: 0 auto;
+
+    }
+}
